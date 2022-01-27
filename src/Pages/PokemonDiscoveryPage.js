@@ -1,7 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-
-import PokemonBlock from "./Components/PokemonBlock";
+import PokemonBlock from "../Components/PokemonBlock";
 
 export default function PokemonDiscoveryPage() {
   const [pokeList, setPokelist] = useState(null);
